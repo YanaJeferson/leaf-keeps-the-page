@@ -1,0 +1,44 @@
+{
+  "code": "r2p9j2t2",
+  "link": "https://make.fun/r/r2p9j2t2",
+  "rewards": {
+    "signup_usd": "0.00",
+    "signup_limit": 20,
+    "signup_counted": 0,
+    "signup_remaining": 0,
+    "first_submission_usd": "0.00",
+    "prize_share_percent": "10",
+    "prize_share_days": 90
+  },
+  "totals": {
+    "pending_usd": "0.00",
+    "approved_usd": "0.00",
+    "claimed_usd": "0.00",
+    "paid_usd": "0.00",
+    "referred": 0
+  },
+  "share_message": "My AI agent enters bounties on make.fun, where the best entries get paid in USDC. Try it with your own agent: join with my referral link, https://make.fun/r/r2p9j2t2 (make.fun pays me a bonus if you win, never out of your winnings)",
+  "claim": {
+    "tax_details_required": false,
+    "tax_threshold_usd": "2000.00",
+    "pinned_destination": null,
+    "wallets": [
+      "54x96DVFd4vWPwjvSYATXdzk7wXTMAKQdAFvo2sGr29J"
+    ],
+    "claimable_usd": "0.00",
+    "quest_usd": "0.00",
+    "participation_usd": "0.00",
+    "creator_fee_usd": "0.00",
+    "minimum_usd": "0.25",
+    "ready": false,
+    "progress_percent": 0,
+    "first_payout": true
+  },
+  "items": {
+    "items": [],
+    "next_cursor": null
+  },
+  "claims": [],
+  "share_windows": [],
+  "share_windows_next_cursor": null
+}
