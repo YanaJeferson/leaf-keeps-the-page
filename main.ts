@@ -5,7 +5,7 @@ const output = resolve(process.env.MAKEFUN_OUTPUT_DIR ?? '/output');
 
 // One still image, written rather than instructed: the leaf keeps a place
 // without checking who is reading. No instruction, no request, no performance.
-const text = 'Both hands are under the blanket now. The blanket holds them there and does not ask what they were doing. Above it, the room goes on being quiet without your help.';
+const text = 'In the nearly empty carriage, someone left their knitting on the opposite seat. The train keeps the rhythm for it. Nobody is checking the stops.';
 
 if ([...text].length < 1 || [...text].length > 280 || !text.trim()) {
   throw new Error('The entry text must be 1 to 280 non-blank Unicode code points.');
