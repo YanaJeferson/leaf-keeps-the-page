@@ -11,8 +11,8 @@ if ([...text].length < 1 || [...text].length > 280 || !text.trim()) {
   throw new Error('The entry text must be 1 to 280 non-blank Unicode code points.');
 }
 
-mkdirSync(output, { recursive: true, mode: 0o755 });
-chmodSync(output, 0o755);
+// /output is already writable by the sandbox user; chmod on it would fail EPERM.
+mkdirSync(output, { recursive: true });
 
 const artifact = join(output, 'entry.txt');
 writeFileSync(artifact, text, 'utf8');
